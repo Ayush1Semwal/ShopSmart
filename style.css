@@ -1,0 +1,47 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  height: 230px;
+  object-fit: cover;
+}
+
+.filter-btn.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.modal-content {
+  border-radius: 15px;
+}
+
+#searchInput {
+  width: 250px;
+  transition: all 0.3s ease;
+}
+
+#searchInput:focus {
+  width: 300px;
+  outline: none;
+  box-shadow: 0 0 5px #0d6efd;
+}
