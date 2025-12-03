@@ -1,13 +1,14 @@
 const products = [
   { id: 1, name: "Wireless Headphones", price: 1499, category: "electronics", image: "product1.jpg" },
-  { id: 2, name: "Casual Shirt", price: 899, category: "fashion", image: "/product2.jpg" },
-  { id: 3, name: "Smart Watch", price: 1999, category: "electronics", image: "/product3.jpg" },
-  { id: 4, name: "Sofa Cushion", price: 499, category: "home", image: "/product4.jpg" },
-  { id: 5, name: "Designer Lamp", price: 1299, category: "home", image: "/product5.jpg" },
-  { id: 6, name: "Denim Jacket", price: 1499, category: "fashion", image: "/product6.jpg" },
-  { id: 7, name: "Bluetooth Speaker", price: 999, category: "electronics", image: "/product7.jpg" },
-  { id: 8, name: "Table Plant", price: 299, category: "home", image: "/product8.jpg" }
+  { id: 2, name: "Casual Shirt", price: 899, category: "fashion", image: "product2.jpg" },
+  { id: 3, name: "Smart Watch", price: 1999, category: "electronics", image: "product3.jpg" },
+  { id: 4, name: "Sofa Cushion", price: 499, category: "home", image: "product4.jpg" },
+  { id: 5, name: "Designer Lamp", price: 1299, category: "home", image: "product5.jpg" },
+  { id: 6, name: "Denim Jacket", price: 1499, category: "fashion", image: "product6.jpg" },
+  { id: 7, name: "Bluetooth Speaker", price: 999, category: "electronics", image: "product7.jpg" },
+  { id: 8, name: "Table Plant", price: 299, category: "home", image: "product8.jpg" }
 ];
+
 
 const productList = document.getElementById("product-list");
 const searchInput = document.getElementById("searchInput");
@@ -62,5 +63,6 @@ function attachCartListeners() {
 
 // Initial display
 displayProducts(products);
+
 
 
