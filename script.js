@@ -1,5 +1,5 @@
 const products = [
-  { id: 1, name: "Wireless Headphones", price: 1499, category: "electronics", image: "/product1.jpg" },
+  { id: 1, name: "Wireless Headphones", price: 1499, category: "electronics", image: "product1.jpg" },
   { id: 2, name: "Casual Shirt", price: 899, category: "fashion", image: "/product2.jpg" },
   { id: 3, name: "Smart Watch", price: 1999, category: "electronics", image: "/product3.jpg" },
   { id: 4, name: "Sofa Cushion", price: 499, category: "home", image: "/product4.jpg" },
@@ -62,4 +62,5 @@ function attachCartListeners() {
 
 // Initial display
 displayProducts(products);
+
 
